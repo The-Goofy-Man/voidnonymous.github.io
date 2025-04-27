@@ -1,0 +1,42 @@
+@font-face {
+  font-family: '0xProto';
+  src: url('fonts/0xProto-Regular.otf') format('opentype'),
+       url('fonts/0xProto-Regular.ttf') format('truetype'),
+       url('fonts/0xProto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+a {
+    color: rgb(90, 230, 120)
+}
+      body {
+  color: rgb(90, 230, 59);
+  background-color: black;
+  font: 12px "0xProto", monospaced;
+}
+     p.i {
+  text-indent: 50px;
+}
+     h1.c {
+color: rgb(166, 209, 137);
+     }
+     h6.A {
+         color: rgb(255, 0, 0);
+     }
+     footer {
+             background-image: linear-gradient(
+                     180deg,
+                     hsl(0deg 0% 0%) 0%,
+                     hsl(240deg 100% 3%) 11%,
+                     hsl(240deg 100% 7%) 20%,
+                     hsl(240deg 100% 10%) 29%,
+                     hsl(240deg 100% 13%) 38%,
+                     hsl(240deg 100% 17%) 46%,
+                     hsl(240deg 100% 20%) 53%,
+                     hsl(269deg 100% 25%) 60%,
+                     hsl(327deg 100% 35%) 75%,
+                     hsl(357deg 100% 40%) 83%,
+                     hsl(26deg 100% 45%) 91%,
+                     hsl(55deg 100% 50%) 100%);
+         }
